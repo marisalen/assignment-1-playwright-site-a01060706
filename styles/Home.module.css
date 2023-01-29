@@ -276,3 +276,19 @@
     transform: rotate(0deg);
   }
 }
+
+.carousel {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.carouseltext {
+  background-color: var(--quinary-color);
+  padding: 10px;
+  margin: 0px 50px;
+}
